@@ -1,8 +1,21 @@
-require "defines"
+function prequire(f)
+  local s,e=pcall(function()require(f)end)
+  if not s then
+    if type(e)=="string" then
+      print(f..":"..e)
+    else
+      print(f..": can't load "..modname.."/"..string.gsub(f, "%.", "/")..".lua")
+    end
+  end
+end
+
+prequire "defines"
 
 script.on_init(function()
   pcall(function()
-    game.player.insert{name = "burner-assembling-machine", count = 1}
+    for _, player in pairs(game.players) do
+      player.insert{name = "burner-assembling-machine", count = 1}
+    end
   end)
 end)
 

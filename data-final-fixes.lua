@@ -13,4 +13,4 @@ for i, obj in pairs(data.raw["recipe"]) do
   end
 end
 data.raw["assembling-machine"]["burner-assembling-machine"].ingredient_count = crafting_cap
-data.raw.player.player.crafting_categories = {}
+data.raw.player.player.crafting_categories = nil

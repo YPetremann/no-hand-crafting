@@ -1,2 +1,3 @@
-# no-hand-crafting
-Factorio mod that remove hand crafting abilities and add an assembler for them.
+Removes all hand crafting abilities but gives a burner assembler.
+
+The burner assembling machine is really meant to be able to craft anything the player could craft by hand, even with mods, but not more.

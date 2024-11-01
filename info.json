@@ -1,12 +1,20 @@
 {
   "name": "no-hand-crafting",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "title": "No Hand Crafting",
   "author": "Y.Petremann",
   "contact": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=8976",
   "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=8976",
-  "description": "You can no longer craft anything as a player, you are all dependent on assemblers.",
+  "description": "You can no longer hand craft, you are dependent on assemblers.",
   "factorio_version": "2.0",
+  "package": {
+    "readme": "README.md",
+    "gallery": [
+      "gallery/**.png"
+    ],
+    "license": "LICENSE",
+    "sync_portal_details": true
+  },
   "dependencies": [
     "base >= 2.0.0"
   ]

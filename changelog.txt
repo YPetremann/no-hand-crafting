@@ -1,60 +1,56 @@
---------------------------------------------------
-Version 0.13.1
-Date 17.07.2016
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: ????
+  Changes:
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2024-11-01
+  Changes:
+    - Migration to 2.0
+---------------------------------------------------------------------------------------------------
+Version: 0.13.1
+Date: 17.07.2016
   Bugfix:
     - Fixed not receiving machine on new game
---------------------------------------------------
-Version 0.13.0
-Date 09.07.2016
+---------------------------------------------------------------------------------------------------
+Version: 0.13.0
+Date: 09.07.2016
   Changes:
     - Migration to 0.13
---------------------------------------------------
-Version 0.12.2
-Date 22.11.2015
+---------------------------------------------------------------------------------------------------
+Version: 0.12.2
+Date: 22.11.2015
   Changes:
     - Migration to 0.12.11
---------------------------------------------------
-Version 0.12.1
-Date 16.8.2015
+---------------------------------------------------------------------------------------------------
+Version: 0.12.1
+Date: 16.8.2015
   Changes:
     - Migration to 0.12
---------------------------------------------------
-Version 2.0.1
-Date 3.7.2015
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 3.7.2015
   Removed:
     - Debug simulation
---------------------------------------------------
-Version 2.0.0
-Date 31.5.2015
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 31.5.2015
   Changes:
     - burner assembler can craft all recipe the player could craft by hand
     - burner assembler scale by itself
     - no longer use whitelist/blacklist system
-  Explanations :
-    While making this version, I made a auto-discovery system to analyse the
-    game and I came in conclusion that it would be a bit dificult to create a
-    generic system to select recipes that block the game progression, the system
-    could still be used to analyse the game to show what can or can't be made in
-    a complete playthrough, so I decided to make it to do so.
-
-    Also the main reason I made this mod is not to create no crafting challenge
-    2.0 but to consider the fact we are playing not as a craftsman but as an
-    industrial engineer. One thing it permit is to force us to completely design
-    factories for such type of items instead of crafting them by hand. So I take
-    the decision that the burner assembler would have the possibility to craft
-    everything the player could craft before.
---------------------------------------------------
-Version 1.0.1
-Date 6.3.2015
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 6.3.2015
   Balancing:
     - added back in burner assembling machine : iron-chest
     - added back in burner assembling machine : pipe-to-ground
     - added back in burner assembling machine : basic-mining-drill
     - added in burner assembling machine : oil-refinery
     - added in burner assembling machine : shotgun-shell
---------------------------------------------------
-Version 1.0.0
-Date 5.3.2015
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 5.3.2015
   Features:
     - Added a burner assembling machine
     - All enabled crafts from the start can be used in the burner assembling machine
